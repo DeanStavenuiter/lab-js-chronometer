@@ -45,5 +45,3 @@ class Chronometer {
     return this.computeTwoDigitNumber(this.getMinutes()) + ":" + this.computeTwoDigitNumber(this.getSeconds()) + "." + this.computeTwoDigitNumber(this.getCentiseconds());
   }
 }
-
-console.log(120 % 60);
